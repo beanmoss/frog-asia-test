@@ -5,6 +5,7 @@ use App\Exceptions\FrogCreationValidationException;
 use App\Models\Frog;
 use App\Services\FrogService;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
 use \Validator;
 
 class FrogController extends Controller
@@ -17,7 +18,7 @@ class FrogController extends Controller
      */
     public function index()
     {
-        return view('frog.index', ['frogs' => Frog::all()]);
+        return view('frog.index', ['frogs' => Frog::paginate(15)]);
     }
 
     /**

@@ -42,6 +42,7 @@
             @endforelse
             </tbody>
         </table>
+        {!! $frogs->render() !!}
     </div>
 </div>
 @stop
