@@ -40,6 +40,8 @@ Lumen development server started on http://localhost:8000/
 
 - For testing, under /src folder you can directly issue ```phpunit```
 
+###Total hrs - 7hrs
+
 ###That's it! Thank you!
 ####Robel Luna
 
