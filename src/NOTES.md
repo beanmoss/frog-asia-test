@@ -15,14 +15,14 @@ sudo git clone https://github.com/beanmoss/frog-asia-test.git
 ```
 frog-asia-test/src
 ```
-3. Update\Install dependencies
+3. Update or Install dependencies
 ```
 sudo composer update
 ```
-4. I used sqlite as storage so copy `.env.example` as `.env`
-(```
+4. I used sqlite as storage so copy ```.env.example``` as ```.env```
+```
 cp .env.example .env
-```)
+```
 5. Bootup the built in php server
 ```
 php artisan serve
